@@ -8,8 +8,7 @@
     
     
   2.初始化,启动阶段
-
-	   init 加载spring的配置文件
+     init 加载spring的配置文件
      IOC初始化 声明一个IOC容器  Map<String,Object>
      scan-package 配置一个包扫描路径,扫描到相关的类
      实例化  将扫描到的相关类,利用反射机制实例化,并且保存到IOC容器之中
